@@ -1,0 +1,32 @@
+.card{
+  padding : 20px;
+  background-color: #fff; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.read-the-docs{
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #362c50;
+}
+
+.heading{
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #362c50;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+.list{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #362c50;
+}
