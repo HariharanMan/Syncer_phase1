@@ -1,0 +1,71 @@
+/* App.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #0077cc;
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-item {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+
+.post-title {
+  font-size: 1.4rem;
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.post-title:hover {
+  text-decoration: underline;
+}
+
+.post-description {
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+.post-title-full {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.post-content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+.not-found {
+  text-align: center;
+  color: crimson;
+  font-size: 1.8rem;
+}
