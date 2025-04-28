@@ -1,0 +1,41 @@
+body {
+  background-color: #f0f4ff;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input {
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #555;
+}

@@ -1,0 +1,63 @@
+body{
+  background-color: #f0f4c3;
+  font-family: Arial, sans-serif;
+  color: #333;
+  justify-content: center;
+  align-content: center;
+}
+.app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.counter-display {
+  font-size: 60px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.increment {
+  background-color: #4caf50;
+  color: white;
+}
+
+.increment:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+.decrement {
+  background-color: #f44336;
+  color: white;
+}
+
+.decrement:hover {
+  background-color: #d32f2f;
+  transform: scale(1.05);
+}
+
+.reset {
+  background-color: #2196f3;
+  color: white;
+}
+
+.reset:hover {
+  background-color: #1976d2;
+  transform: scale(1.05);
+}

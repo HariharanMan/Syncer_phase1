@@ -1,0 +1,40 @@
+body{
+  background-color: #abdde4;
+  font-family: Arial, sans-serif;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+}
+.app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.loading {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.error {
+  font-size: 20px;
+  color: #ff3333;
+}
+
+.data-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.data-container h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.data-container p {
+  font-size: 18px;
+  color: #555;
+}

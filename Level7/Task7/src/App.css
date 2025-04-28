@@ -1,0 +1,36 @@
+body{
+  background-color: #f0f4c3;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.size-box {
+  display: inline-block;
+  padding: 30px 50px;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 20px;
+  color: #555;
+}
+
+.size-box p {
+  margin: 10px 0;
+}
