@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 0px 600px;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.item {
+  padding: 20px 15px;
+  border-bottom: 1px solid #eee;
+}
