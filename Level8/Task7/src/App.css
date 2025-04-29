@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #8ab9e8;
+  justify-content: center;
+}
+
+.App {
+  text-align: center;
+  padding: 30px;
+}
+
+.posts {
+  margin-top: 20px;
+}
+
+.posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.posts li {
+  background: rgb(239, 237, 237);
+  color:#0f0f0f;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+  font-size: 18px;
+}
